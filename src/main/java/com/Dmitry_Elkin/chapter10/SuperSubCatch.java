@@ -16,10 +16,10 @@ public class SuperSubCatch {
                 arr[b] = a;
             }catch (Exception e){
                 System.out.println("everything after is unReachable !!!");
-            } catch (ArithmeticException e) {
-                System.out.println("arithmetical exception " + e);
-            } catch (ArrayIndexOutOfBoundsException e) {
-                System.out.println("ArrayIndexOutOfBoundsException " + e);
+//            } catch (ArithmeticException e) {
+//                System.out.println("arithmetical exception " + e);
+//            } catch (ArrayIndexOutOfBoundsException e) {
+//                System.out.println("ArrayIndexOutOfBoundsException " + e);
             }
             System.out.println("a = "+a);
         }
