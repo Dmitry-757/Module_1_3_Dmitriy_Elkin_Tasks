@@ -1,5 +1,5 @@
 package com.Dmitry_Elkin.chapter15;
-
+@FunctionalInterface
 interface SumFuncI<T> {
     T func(T t);
 }
