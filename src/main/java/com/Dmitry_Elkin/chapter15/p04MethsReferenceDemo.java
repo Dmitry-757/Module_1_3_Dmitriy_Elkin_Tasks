@@ -1,9 +1,8 @@
 package com.Dmitry_Elkin.chapter15;
 
-import java.security.Provider;
 import java.util.function.Supplier;
 
-public class p4MethsReferenceDemo {
+public class p04MethsReferenceDemo {
     @FunctionalInterface
     interface MyFuncI {
         int calc(int a, int b);
